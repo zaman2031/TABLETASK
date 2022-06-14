@@ -1,0 +1,44 @@
+$primary-color: #454545;
+$secondary-color: #E0E0E0;
+$tirtiary-color : #303030;
+$main-color : #E9E9E9;
+$basic-color : #01BACB;
+$green-color : #00DF9F;
+$brownish-color : #B39E54;
+$redish-color :  #EC6444; 
+$blackish-color: #1B0909;
+
+.main-wrapper {
+    border: 5px solid $primary-color;
+    border-spacing: 0px;
+    height: 650px;
+    width: 50%;
+    margin: 200px 0 0 600px;
+.table-Header {
+    background: $primary-color;
+    height: 60px;
+    text-align: left;
+    color: $secondary-color;
+}
+.table-body {
+    background-color: $tirtiary-color;
+    color:  $main-color;
+    text-align: left;
+    
+    tr td{
+       border-bottom: 1px solid $blackish-color;
+    }
+.primary-color {
+    color: $basic-color;
+}
+.secondary-color {
+    color:  $green-color ;
+}
+.tirtiary-color {
+    color:  $brownish-color;
+}
+.redish-color {
+    color:  $redish-color ;
+}
+}
+}
